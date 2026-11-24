@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
     category: 'E-Commerce',
     description:
       'Boutique e-commerce dédiée à la vente de créations et produits artisanaux en bois d’olivier tunisien, façonnés à la main avec commande en ligne et WhatsApp.',
-    url: 'https://radiwood-app-git-main-wilietechtn.vercel.app/',
+    url: 'https://radiwood-app.vercel.app//',
     image: '/projects/RadiWood.png',
     tags: ['Next.js', 'TypeScript', 'E-Commerce'],
     featured: true,
