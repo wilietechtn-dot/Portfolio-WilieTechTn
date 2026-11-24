@@ -1,26 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --bg-navy: #070b14;
+  --card-navy: #0e1628;
+  --gold-primary: #f5b700;
+  --gold-light: #ffd54f;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-navy);
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Grille de fond subtile type ingénierie */
+.bg-tech-grid {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(245, 183, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(245, 183, 0, 0.04) 1px, transparent 1px);
+}
+
+/* Lueur dorée */
+.gold-glow {
+  box-shadow: 0 0 35px -8px rgba(245, 183, 0, 0.35);
 }
